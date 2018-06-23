@@ -1,0 +1,2482 @@
+{
+	"sceneObjects": [
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 0,
+				"y": 2.172227150387436
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 5,
+					"autoResize": false,
+					"visible": true,
+					"image": "cats/ho_noCats.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 1280,
+						"y": 720
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "background",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {},
+			"functions": {
+				"onAddToScene": "function (data)\n{\n\twade.loadAudio('bg.wav');\n\twade.app.soundtrack = wade.playAudio('bg.wav');\n\tdocument.body.style.cursor = 'default';\n}"
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -596.4066827457182,
+				"y": -307.82280399779
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_0.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_0",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 68.77360991622177,
+						"y": 83
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_1.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_1",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 89.1907753601001,
+						"y": 49
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_2.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_2",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 48.35644447234343,
+						"y": 67
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_3.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_3",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 91.33995066998204,
+						"y": 77
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_4.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_4",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 101.01123956445073,
+						"y": 92
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_5.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_5",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 53.729382747048255,
+						"y": 99.99999999999999
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_6.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_6",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 107.45876549409653,
+						"y": 36.627906976744185
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_7.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_7",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 43.56436438949858,
+						"y": 99.99999999999999
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_8.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_8",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 46.2072691624615,
+						"y": 51
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_9.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_9",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 90.26536301504107,
+						"y": 94
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_10.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_10",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 101.01123956445073,
+						"y": 89
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/mask_11.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "target_11",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 95.40731515831,
+						"y": 100
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 107.45876549409653,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 214.91753098819305,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 322.37629648228955,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 429.8350619763861,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 537.2938274704826,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 644.7525929645791,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 752.2113584586756,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 859.6701239527722,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 967.1288894468687,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 1074.5876549409652,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 1182.0464204350617,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "bar",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -575.5,
+				"y": 268
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_0",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_0.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 64,
+						"y": 83
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_0.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 64,
+						"y": 83
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_0",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -504,
+				"y": 99
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_1",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_1.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 83,
+						"y": 49
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_1.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 83,
+						"y": 49
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_1",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -457,
+				"y": 201
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_2",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_2.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 45,
+						"y": 67
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_2.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 45,
+						"y": 67
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_2",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -410,
+				"y": 321
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_3",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_3.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 85,
+						"y": 77
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_3.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 85,
+						"y": 77
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_3",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -280.5,
+				"y": 222.5
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_4",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_4.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 94,
+						"y": 92
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_4.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 94,
+						"y": 92
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_4",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -179.5,
+				"y": 188.5
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_5",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_5.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 52,
+						"y": 104
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_5.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 52,
+						"y": 104
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_5",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -53.5,
+				"y": 324
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_6",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_6.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 172,
+						"y": 63
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_6.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 172,
+						"y": 63
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_6",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 174,
+				"y": 295
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_7",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_7.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 45,
+						"y": 111
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_7.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 45,
+						"y": 111
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_7",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -546.6872394345664,
+				"y": -72.18711241380507
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_8",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_8.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 55.329365732664215,
+						"y": 65.62320121781104
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_8.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 55.329365732664215,
+						"y": 65.62320121781104
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_8",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 262.5,
+				"y": 121.5
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_9",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_9.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 84,
+						"y": 94
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_9.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 84,
+						"y": 94
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_9",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 515.5,
+				"y": 170
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_10",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_10.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 94,
+						"y": 89
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_10.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 94,
+						"y": 89
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_10",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 565.1963248537539,
+				"y": 308.62314593694896
+			},
+			"rotation": 0,
+			"behaviors": [
+				{
+					"name": "HiddenObject",
+					"properties": {
+						"targetObject": "bar",
+						"targetSprite": "target_11",
+						"movementSpeed": 2000,
+						"rotationSpeed": 10
+					}
+				}
+			],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": true,
+					"image": "hiddenObject_1/base_11.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 95,
+						"y": 107
+					}
+				},
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 4,
+					"autoResize": false,
+					"visible": false,
+					"image": "hiddenObject_1/obj_11.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 95,
+						"y": 107
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "hidden_object_11",
+			"path": "",
+			"addToScene": {
+				"autoListen": true
+			},
+			"properties": {
+				"objectFind": true
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 2.748417892837413,
+				"y": -301.6412952876095
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 5,
+					"autoResize": false,
+					"visible": true,
+					"image": "top_bar.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 1284.392049868572,
+						"y": 117.13258982471302
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "SceneObject_0",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -783.2990994586621,
+				"y": 5.496835785674822
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {
+						"firework": {
+							"type": "Animation",
+							"name": "firework",
+							"startFrame": 0,
+							"endFrame": 59,
+							"numCells": {
+								"x": 6,
+								"y": 10
+							},
+							"image": "firework1Green.png",
+							"imageArea": {
+								"minX": 0,
+								"minY": 0,
+								"maxX": 1,
+								"maxY": 1
+							},
+							"speed": 20,
+							"looping": false,
+							"playMode": "forward",
+							"autoResize": true,
+							"offset": {
+								"x": 0,
+								"y": 0
+							},
+							"stopped": false,
+							"properties": {}
+						}
+					},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "procedural_square",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 64,
+						"y": 64
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "firework",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -611.0773432899521,
+				"y": -176.040918877389
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "TextSprite",
+					"text": "Timer",
+					"name": "timer_text",
+					"font": "50px Arial",
+					"alignment": "left",
+					"color": "white",
+					"visible": true,
+					"layer": 1,
+					"maxWidth": 0,
+					"shadowColor": "#000",
+					"shadowBlur": 0,
+					"shadowOffset": {
+						"x": 0,
+						"y": 0
+					},
+					"lineSpacing": 1,
+					"maxLines": 0,
+					"outlineColor": "#000",
+					"outlineWidth": 0,
+					"boundsScale": {
+						"x": 1,
+						"y": 1
+					},
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"fixedSize": false,
+					"drawModifiers": [],
+					"properties": {}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "timer_text",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -438.6240287942279,
+				"y": -176.50381140878704
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "TextSprite",
+					"text": "0",
+					"name": "timer",
+					"font": "50px Arial",
+					"alignment": "left",
+					"color": "#000",
+					"visible": true,
+					"layer": 1,
+					"maxWidth": 0,
+					"shadowColor": "#000",
+					"shadowBlur": 0,
+					"shadowOffset": {
+						"x": 0,
+						"y": 0
+					},
+					"lineSpacing": 1,
+					"maxLines": 0,
+					"outlineColor": "#000",
+					"outlineWidth": 0,
+					"boundsScale": {
+						"x": 1,
+						"y": 1
+					},
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"fixedSize": false,
+					"drawModifiers": [],
+					"properties": {}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "timer",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onAddToScene": "function (data)\n{\n\ts=wade.app.tempo\r\n\tfunction fmtMSS(s){return(s-(s%=60))/60+(9<s?':':':0')+s}\r\n\tthis.getSprite().setText(fmtMSS(s));\r\n\tif (!this.running)\r\n\t{\r\n\t    this.start();\r\n\t}\r\n\t\n}",
+				"continue": "function (data)\n{\n\t//continueTimeline\r\n\tthis.time = wade.getSceneObject('timer').time;\r\n\tthis.running = true;\r\n\tthis.interval(1000, 'tick');\n}",
+				"onUpdate": "function (data)\n{\n\tif(this.time===0)\r\n\t{\r\n\t         this.stop();\r\n\t        wade.app.vidas--;\r\n\t        // ja nao tem vidas?\r\n\t        if (wade.app.vidas===0)\r\n\t        {\r\n\t        \twade.clearScene();\r\n\t        \twade.loadScene('gameOver.wsc', true, function(){});\r\n\t        }\r\n\t        else\r\n\t        {\r\n\t        \twade.clearScene();\r\n\t        \twade.loadScene('gameOver.wsc', true, function(){});\r\n\t        }\r\n\t}\n}",
+				"start": "function (data)\n{\n\t//startTimeline\r\n\tthis.time = wade.app.tempo;\r\n\tthis.running = true;\r\n\tthis.interval(1000, 'tick');\n}",
+				"stop": "function (data)\n{\n\tthis.running = false;\r\n\tthis.unschedule('tick');\n}",
+				"tick": "function (data)\n{\n\tthis.time -=1;\r\n\ts=this.time;\r\n\tfunction fmtMSS(s){return(s-(s%=60))/60+(9<s?':':':0')+s}\r\n\tthis.getSprite().setText(fmtMSS(s));\r\n\t\r\n\tif (this.time<=10)\r\n\t{\r\n\t    wade.playAudio('audio/alarm.ogg');\r\n\t    if(this.time%2==1)\r\n\t        this.getSprite().setColor('black');\r\n\t    else\r\n\t        this.getSprite().setColor('red');\r\n\t}\n}"
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 503.64401989420077,
+				"y": 333.13953399251824
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "TEXT-LOGO.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 250,
+						"y": 39
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "SceneObject_1",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onMouseDown": "function (data)\n{\n\twindow.open(\"http://www.hiddenogames.com\");\n}",
+				"onMouseIn": "function (data)\n{\n\t document.body.style.cursor = 'pointer';\n}",
+				"onMouseOut": "function (data)\n{\n\t document.body.style.cursor = 'default';\n}"
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -260.66725804649235,
+				"y": 330.1785268588903
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "help-button.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 101,
+						"y": 54
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "SceneObject_2",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -578.7471134929906,
+				"y": 326.3778114041368
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": true,
+					"image": "unsound-button.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 75.75772101421819,
+						"y": 62.31424972918182
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "mute_btn",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onClick": "function (data)\n{\n\twade.app.mute = true;\r\n\t\r\n\tsetTimeout(function(){   \r\n\t    wade.getSceneObject('mute_btn').setVisible(!wade.app.mute);   \r\n\t    wade.getSceneObject('un_mute_btn').setVisible(wade.app.mute);}, 0);\r\n\t\r\n\twade.app.soundtrack = wade.playAudio('bg.wav');\n}",
+				"onMouseIn": "function (data)\n{\n\tdocument.body.style.cursor = 'pointer';\n}",
+				"onMouseOut": "function (data)\n{\n\tdocument.body.style.cursor = 'default';\n}"
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": -578.7471134929906,
+				"y": 326.37781140413693
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 3,
+					"autoResize": false,
+					"visible": true,
+					"image": "sound-button.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 75.75772101421819,
+						"y": 62.31424972918182
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "un_mute_btn",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onAddToScene": "function (data)\n{\n\tsetTimeout(function(){    \r\n\t    wade.getSceneObject('mute_btn').setVisible(wade.app.mute);    \r\n\twade.getSceneObject('un_mute_btn').setVisible(!wade.app.mute);}, 0);\n}",
+				"onClick": "function (data)\n{\n\twade.app.mute = false;\r\n\tsetTimeout(function(){   \r\n\t    wade.getSceneObject('mute_btn').setVisible(!wade.app.mute);  \r\n\t    wade.getSceneObject('un_mute_btn').setVisible(wade.app.mute);}, 0);\r\n\t//wade.app.soundtrack = wade.playAudio('bg.wav');\r\n\twade.stopAudio(wade.app.soundtrack);\n}",
+				"onMouseIn": "function (data)\n{\n\t document.body.style.cursor = 'pointer';\n}",
+				"onMouseOut": "function (data)\n{\n\t document.body.style.cursor = 'default';\n}"
+			}
+		},
+		{
+			"type": "SceneObject",
+			"position": {
+				"x": 47.753295635657906,
+				"y": 30.18997172674343
+			},
+			"rotation": 0,
+			"behaviors": [],
+			"sprites": [
+				{
+					"type": "Sprite",
+					"animations": {},
+					"currentAnimation": "default",
+					"sortPoint": {
+						"x": 0,
+						"y": 0
+					},
+					"layer": 1,
+					"autoResize": false,
+					"visible": false,
+					"image": "level-complete.png",
+					"imageArea": {
+						"minX": 0,
+						"minY": 0,
+						"maxX": 1,
+						"maxY": 1
+					},
+					"alwaysDraw": false,
+					"name": "",
+					"drawModifiers": [],
+					"pixelShader": "",
+					"pixelShaderUniforms": null,
+					"pixelPerfectMouseEvents": 0,
+					"properties": {},
+					"size": {
+						"x": 426,
+						"y": 186
+					}
+				}
+			],
+			"spriteOffsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"angle": 0
+				}
+			],
+			"flowChart": null,
+			"grid": null,
+			"alignment": {
+				"x": "center",
+				"y": "center"
+			},
+			"name": "level_up_btn",
+			"isTemplate": false,
+			"path": "",
+			"addToScene": {
+				"autoListen": true,
+				"params": null
+			},
+			"properties": {},
+			"functions": {
+				"onMouseDown": "function (data)\n{\n\twade.clearScene();\r\n\twade.loadScene('play_toys.wsc', false, function()\r\n\t        {\r\n\t            // the scene has been loaded, do something here\r\n\t\r\n\t        });\n}",
+				"onMouseIn": "function (data)\n{\n\tdocument.body.style.cursor = 'pointer'\n}",
+				"onMouseOut": "function (data)\n{\n\tdocument.body.style.cursor = 'default';\n}"
+			}
+		}
+	],
+	"paths": [],
+	"sceneObjectGroups": [],
+	"layers": [
+		null,
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "webgl",
+			"useQuadtree": true,
+			"resolutionFactor": 1,
+			"blur": 0,
+			"postProcessShader": "",
+			"postProcessShaderUniforms": null,
+			"properties": {}
+		},
+		null,
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "webgl",
+			"useQuadtree": true,
+			"resolutionFactor": 1,
+			"blur": 0,
+			"postProcessShader": "",
+			"postProcessShaderUniforms": null,
+			"properties": {}
+		},
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "webgl",
+			"useQuadtree": true,
+			"resolutionFactor": 1,
+			"blur": 0,
+			"postProcessShader": "",
+			"postProcessShaderUniforms": null,
+			"properties": {}
+		},
+		{
+			"scaleFactor": 1,
+			"translateFactor": 1,
+			"renderMode": "webgl",
+			"useQuadtree": true,
+			"resolutionFactor": 1,
+			"blur": 0,
+			"postProcessShader": "",
+			"postProcessShaderUniforms": null,
+			"properties": {}
+		}
+	],
+	"minScreenSize": {
+		"x": 1280,
+		"y": 760
+	},
+	"maxScreenSize": {
+		"x": 1280,
+		"y": 760
+	},
+	"orientation": "none",
+	"windowMode": "full",
+	"defaultLayer": 1,
+	"timeline": {
+		"events": []
+	},
+	"scripts": [
+		"hiddenObject_1.js"
+	]
+}
